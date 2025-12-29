@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.box{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_a84YXaswqsw8OF6VhKvlh2wsvlys_kA2bp3huPMTxYnYPLMJyzDDf3Q&s=10');
+  background-position: center;
+  background-size: cover;
+}
+.box-login{
+  height: 480px;
+  background: transparent;
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
+  padding: 40px 50px;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box-login h1{
+  font-size: 40px;
+  text-align: center;
+  color: #D3D3D3;
+}
+.box-input input{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #D3D3D3;
+}
+.box-input input::placeholder{
+  color: #D3D3D3;
+  font-size: 15px;
+}
+.box-input i{
+  position: relative;
+  left: 90%;
+  bottom: 36px;
+  color: #D3D3D3;
+}
+.box-check{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #D3D3D3;
+}
+.box-check a{
+  text-decoration: none;
+  color: #D3D3D3;
+}
+.box-check a:hover{
+  color: #836FFF;
+}
+.box-check [type="checkbox"]{
+  position: relative;
+  top: 3px;
+}
+.box-button button{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  background: transparent;
+  color: #D3D3D3;
+  margin: 14px;
+}
+.box-button button:hover{
+  color: #000000;
+  background: #836FFF;
+}
+.box-icone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 60px;
+  color: #D3D3D3;
+}
+.box-p{
+  color: #D3D3D3;
+}
